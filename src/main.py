@@ -33,7 +33,7 @@ def update_config_file():
     configs.append(generate_config(ipv4_list[1], 2, "IPv4"))
     configs.append(generate_config(ipv6, 3, "IPv6"))
     
-    final_config = template + "\n\n" + "\n\n".join(configs)
+    final_config = template + "\n" + "\n".join(configs)
     
     with open('config.txt', 'w', encoding='utf-8') as f:
         f.write(final_config)
