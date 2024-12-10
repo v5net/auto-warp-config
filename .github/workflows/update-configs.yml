@@ -2,22 +2,22 @@ name: Update Configs
 
 on:
   schedule:
-    - cron: '0 * * * *'  # هر ساعت
-  workflow_dispatch:  # امکان اجرای دستی
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # اضافه کردن دسترسی نوشتن
+      contents: write
     
     steps:
-    - uses: actions/checkout@v4  # آپدیت به نسخه 4
+    - uses: actions/checkout@v4
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}  # استفاده از توکن گیت‌هاب
+        token: ${{ secrets.GITHUB_TOKEN }}
     
     - name: Set up Python
-      uses: actions/setup-python@v4  # آپدیت به نسخه 4
+      uses: actions/setup-python@v4
       with:
         python-version: '3.x'
     
