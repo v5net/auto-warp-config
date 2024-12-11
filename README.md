@@ -83,12 +83,6 @@ Contributions are welcome! Feel free to submit issues and pull requests.
 
 If you find this project helpful, please give it a star to show your support!
 
-## 📜 Changelog
-
-- Initial Release: Basic functionality with automated updates
-- v1.1: Added failsafe system and improved error handling
-- v1.2: Enhanced GitHub Actions workflow with proper permissions
-
 ## 🙏 Acknowledgments
 
 Special thanks to:
