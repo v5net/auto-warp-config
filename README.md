@@ -95,11 +95,5 @@ Special thanks to:
 - [IRCF Space](https://github.com/ircfspace) for providing and maintaining the IP endpoints database
 - All contributors and users who help improve this project
 
-## 📞 Contact
-
-For support or queries:
-- Open an [Issue](https://github.com/4n0nymou3/auto-warp-config/issues)
-- Project Homepage: [Auto WARP Config](https://github.com/4n0nymou3/auto-warp-config)
-
 ---
 Made with ❤️ by [4n0nymou3](https://github.com/4n0nymou3)
